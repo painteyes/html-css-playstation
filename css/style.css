@@ -19,6 +19,18 @@ img{
     padding: 10px 20px;
 }
 
+/* Image block */
+.image_block{
+    border-radius: 15px;
+    overflow: hidden;    
+    margin: 15px 0;
+}
+
+@media screen and (min-width:992px) {
+    .image_block{
+        margin-bottom: 0;
+    }
+}
 
 /* HEADER */
 header{
@@ -64,7 +76,6 @@ header{
 /* MAIN */
 
 /* Covers */
-
 .cover_bg{
     background-position: center;
     background-size: cover;
@@ -143,10 +154,18 @@ header{
     } 
 }
 
-
 /* Jumbotron */
 .jumbotron{
     background-image: url("../img/jumbo-bg.png");
+}
+
+/* Previews */
+.previews{
+    padding: 30px;
+}
+
+.releases_title{
+    margin-bottom: 30px;
 }
 
 /* Cover */
@@ -161,15 +180,7 @@ header{
     padding: 30px;
 }
 
-.image_block{
-    border-radius: 25px;
-    overflow: hidden;
-    margin-bottom: 10px ;
-}
-
-
-
-
-.text_block{
+.text_block h2{
     margin-bottom: 20px;
 }
+
