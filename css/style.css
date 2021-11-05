@@ -72,7 +72,8 @@ header{
 .full_cover{
     color: white;
     height: 700px;
-    margin: 0;
+    margin: auto 0;
+    padding: 50px 30px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;  
@@ -80,11 +81,14 @@ header{
 
 .half_cover{
     max-width: 1100px;
-    padding: 0 30px ;
+    padding: 30px ;
     display: flex;
     justify-content: center;
     align-items: center;  
 }
+.half_cover .cover_img {
+    display: none;
+} 
 
 .bg_lightgrey{
     color: black;
@@ -93,10 +97,6 @@ header{
 .bg_darkblue{
     color: white;
     background-color: #161c3b;
-}
-
-.cover_content{
-    padding: 50px 30px;
 }
 
 .cover_content > *{
@@ -129,11 +129,11 @@ header{
     }
 }
 
-.half_cover .cover_img {
-    display: none;
-    /* margin-left: 25px ; */
-} 
-
+@media screen and (min-width:768px){
+    .half_cover {
+        padding: 0 30px; 
+    } 
+}
 @media screen and (min-width:768px){
     .half_cover .cover_img {
         display: block; 
@@ -152,7 +152,6 @@ header{
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
 
 }
-
 
 
 
