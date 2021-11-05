@@ -11,6 +11,7 @@ img{
 /* Container */
 .max_container{
     max-width: 1100px;
+    padding: 30px;
 }
 
 /* Buttons */
@@ -22,15 +23,16 @@ img{
 /* Image block */
 .image_block{
     border-radius: 15px;
-    overflow: hidden;    
-    margin: 15px 0;
+    overflow: hidden;   
+    margin-bottom: 15px; 
 }
 
 @media screen and (min-width:992px) {
     .image_block{
+        margin-top: 0;
         margin-bottom: 0;
     }
-}
+} 
 
 /* HEADER */
 header{
@@ -74,6 +76,9 @@ header{
 }
 
 /* MAIN */
+main{
+    padding-top:130px;
+}
 
 /* Covers */
 .cover_bg{
@@ -86,16 +91,13 @@ header{
 .full_cover{
     color: white;
     height: 700px;
-    margin: auto 0;
-    padding: 50px 30px;
+    margin: auto 0; 
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;  
 }
 
 .half_cover{
-    max-width: 1100px;
-    padding: 30px ;
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -114,7 +116,7 @@ header{
 }
 
 .cover_content > *{
-    margin-top: 30px;
+    margin: 30px 0;
 }
 
 .cover_banner{
@@ -157,15 +159,22 @@ header{
 /* Jumbotron */
 .jumbotron{
     background-image: url("../img/jumbo-bg.png");
+    
 }
 
 /* Previews */
-.previews{
-    padding: 30px;
+.releases_title{
+    margin: 15px 0 50px;
 }
 
-.releases_title{
-    margin-bottom: 30px;
+.previews .image_block{
+   margin-bottom: 25px; 
+}
+
+@media screen and (min-width:992px){
+    .previews .image_block{
+        margin-bottom: 0; 
+    }
 }
 
 /* Cover */
@@ -177,10 +186,25 @@ header{
 .bg_darkgrey{
     background-color: #1f1f1f;
     color: white;
-    padding: 30px;
 }
-
-.text_block h2{
+.text_block {
+    margin-bottom: 30px;
+}
+.text_block h3{
+    font-size: 32px;
     margin-bottom: 20px;
 }
 
+/* Coupon */
+.coupon .text_block 
+
+.title{
+    font-size: 40px;
+    color: black;
+}
+
+.subtitle{
+    font-size: 20px;
+    font-weight: 600px;
+    color: #727272;
+}
