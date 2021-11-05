@@ -1,13 +1,18 @@
 /* COMMON */
-
 body{
     font-family: Arial, sans-serif;
-
-    /* test */
-    border: 1px solid red;
-
+}
+img{
+    width: 100%;
 }
 
+/* Buttons */
+.my_btn{
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+/* HEADER */
 header{
     font-family: Helvetica, arial, sans-serif;
     height: 130px;
@@ -16,12 +21,10 @@ header{
     color: black ;
     background-color: pink;
     font-weight:600;
-    
 }
 
-img{width: 100%;}
-
-.banner{
+/* Banner */
+.header_banner{
     background-color: black;
     color: white;
     text-align: right;
@@ -29,95 +32,96 @@ img{width: 100%;}
     height: 50px;
     vertical-align: middle;
 }
-.banner .logo{
+.header_banner .logo{
     width:80px;
     height: 100%;
 }
 
+/* Navbar */
 .navbar .logo{
     width: 60px;
 }
-
-
-.nav-item img{
+.navbar .nav-item img{
     width:10px;
     
 }
-
-.my_bnt_border{
+.navbar .my_btn{
     background-color: #363636;
-    border-radius: 50px;
-    padding: 10px 20px;
     color: white;
 }
-
-.navbar .search{
-    width: 25px ;
+.navbar .nav-item .search{
+    width: 25px;
 }
 
+/* MAIN */
 
-/* Main */
-main{
-    
-}
 
-.jumbotron{
-    
-    
-    background-color: tomato;
-}
-
+/* Jumbotron */
 .jumbotron{
     background-image: url("../img/jumbo-bg.png");
+}
+
+
+/* Covers */
+.cover{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px; 
-    
-}
-
-.jumbo_banner{
-    width: 50% ;
-    vertical-align: bottom;
-}
-
-.cover{
-    padding: 30px;
+    padding: 50px 30px;
     width: 100%;
 }
 
-.cover >*{
-    margin: 30px 0;
-}
-
-
 .cover_full{
     color: white;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 0;
+}
+
+.cover_half_lightgrey{
+    color: black;
+    height: 300px;
+    background-color: #bebcbb;
+}
+.cover_half_darkblue{
+    color: white;
+    height: 300px;
+    background-color: #161c3b;
+}
+
+.cover_content > *{
+    margin-top: 30px;
+    
+}
+
+.cover_banner{
+    width: 60% ; 
+}
+.cover_full h3{
+    font-size: 40px;
+}
+
+.cover_full .my_btn{
+    background-color: #cd3d0f ;  
+    color: white;
+}
+
+.cover_half .my_btn{
+    background-color: #d9dadc ;  
+    color: #3066e6;
 }
 
 @media screen and (min-width:992px){
     .cover_full{
         max-width: 400px;
     }
-
-    .jumbo_banner{
-        width: 70% ;
-    }
-    
-}
-
-.cover_full h3{font-size: 40px;}
-
-.cover_full .btn{
-    background-color: #cd3d0f ;  
 }
 
 
-.cover_half{
-    color: white;
-}
 
-.my_conteiner{
-    height: 60px;
-}
+
+
+
 
