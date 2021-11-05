@@ -1,11 +1,22 @@
+/* Reset */
+img{
+    width: 100%;
+}
+
 /* COMMON */
 body{
     font-family: Arial, sans-serif;
 }
 
-/* Reset */
-img{
-    width: 100%;
+/* Title */
+.title{
+    font-size: 40px;
+    color: black;
+}
+
+.subtitle{
+    font-size: 20px;
+    color: #727272;
 }
 
 /* Container */
@@ -125,7 +136,7 @@ main{
     margin-top: 0;
 }
 .full_cover h3{
-    font-size: 40px;
+    color: white;
 }
 
 .full_cover .my_btn{
@@ -188,7 +199,7 @@ main{
     color: white;
 }
 .text_block {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 .text_block h3{
     font-size: 32px;
@@ -198,13 +209,3 @@ main{
 /* Coupon */
 .coupon .text_block 
 
-.title{
-    font-size: 40px;
-    color: black;
-}
-
-.subtitle{
-    font-size: 20px;
-    font-weight: 600px;
-    color: #727272;
-}
