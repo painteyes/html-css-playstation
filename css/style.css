@@ -55,13 +55,6 @@ header{
 
 /* MAIN */
 
-
-/* Jumbotron */
-.jumbotron{
-    background-image: url("../img/jumbo-bg.png");
-}
-
-
 /* Covers */
 .cover{
     background-position: center;
@@ -119,7 +112,16 @@ header{
     }
 }
 
+/* Jumbotron */
+.jumbotron{
+    background-image: url("../img/jumbo-bg.png");
+}
 
+/* Full cover */
+.main_cover_1{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+
+}
 
 
 
