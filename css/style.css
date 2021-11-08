@@ -216,7 +216,7 @@ main{
     margin-bottom: 25px; 
 }
 
-/* Title block */
+/* Fonts */
 
 .large_title{
     font-size: 36px; 
@@ -228,6 +228,10 @@ main{
 
 .subtitle{
     font-size: 18px;
+}
+
+.text_block{
+    font-size: 15px;
 }
 
 .title_block .large_title{
@@ -285,7 +289,6 @@ main{
 }
 
 .new_product .text_block span{
-    font-size: 15px;
     display: none; 
 }
 
@@ -371,7 +374,37 @@ main{
 
 /* FOOTER */
 
-.{
+footer{
     background-color: #00439c ;
     color: white;
+    font-size: 14px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+footer .logo{
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+footer .text_block{
+    margin-bottom: 35px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+.copyright {
+    margin-top: 30px;
+}
+
+.copyright .logo{
+    width: 130px;
+}
+
+.copyright span{
+    text-decoration: underline;
+}
+
+
