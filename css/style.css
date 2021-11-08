@@ -1,22 +1,13 @@
-/* Reset */
+/* RESET */
+
 img{
     width: 100%;
 }
 
 /* COMMON */
+
 body{
     font-family: Arial, sans-serif;
-}
-
-/* Title */
-.title{
-    font-size: 40px;
-    color: black;
-}
-
-.subtitle{
-    font-size: 20px;
-    color: #727272;
 }
 
 /* Container */
@@ -31,21 +22,8 @@ body{
     padding: 10px 20px;
 }
 
-/* Image block */
-.image_block{
-    border-radius: 15px;
-    overflow: hidden;   
-    margin-bottom: 15px; 
-}
-
-@media screen and (min-width:992px) {
-    .image_block{
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-} 
-
 /* HEADER */
+
 header{
     font-family: Helvetica, arial, sans-serif;
     height: 130px;
@@ -56,6 +34,7 @@ header{
 }
 
 /* Banner */
+
 .header_banner{
     background-color: black;
     color: white;
@@ -64,19 +43,24 @@ header{
     height: 50px;
     vertical-align: middle;
 }
+
 .header_banner .logo{
     width:80px;
     height: 100%;
 }
 
 /* Navbar */
+
 .navbar .logo{
     width: 60px;
 }
+
 .navbar .nav-item img{
-    width:10px;
-    
+    width:10px; 
 }
+
+/* Navbar buttons */
+
 .navbar .my_btn{
     background-color: #363636;
     color: white;
@@ -86,11 +70,13 @@ header{
 }
 
 /* MAIN */
+
 main{
     padding-top:130px;
 }
 
 /* Covers */
+
 .cover_bg{
     background-position: center;
     background-size: cover;
@@ -112,26 +98,6 @@ main{
     justify-content: center;
     align-items: center;  
 }
-.half_cover .cover_img {
-    display: none;
-} 
-
-.bg_lightgrey{
-    color: black;
-    background-color: #bebcbb;
-}
-.bg_darkblue{
-    color: white;
-    background-color: #161c3b;
-}
-
-.cover_content > *{
-    margin: 30px 0;
-}
-
-.half_cover .cover_content{
-    max-width: 570px;
-} 
 
 .cover_banner{
     width: 60% ; 
@@ -139,19 +105,18 @@ main{
     margin-top: 0;
 }
 
-.full_cover h3{
-    color: white;
-}
-.full_cover .my_btn{
-    background-color: #cd3d0f ;  
-    color: white;
+.cover_content > *{
+    margin: 30px 0;
 }
 
-.half_cover .my_btn,
-.half_cover .my_btn {
-    background-color: #d9dadc ;  
-    color: #3066e6;
-}
+
+.half_cover .cover_content{
+    max-width: 570px;
+} 
+
+.half_cover .cover_img {
+    display: none;
+} 
 
 @media screen and (min-width:992px){    
     .full_cover{
@@ -167,6 +132,98 @@ main{
         display: block; 
     } 
 }
+
+/* Solid color backgrounds */
+
+.bg_lightgrey{
+    color: black;
+    background-color: #bebcbb;
+}
+
+.bg_darkblue{
+    color: white;
+    background-color: #161c3b;
+}
+
+.bg_darkgrey{
+    background-color: #1f1f1f;
+    color: white;
+}
+
+/* Empty background */
+
+.bg_white .large_title{
+    color: black
+}
+
+.bg_white .subtitle{
+    color: #727272;
+}
+
+/* Buttons */
+
+.full_cover .my_btn{
+    background-color: #cd3d0f ;  
+    color: white;
+}
+
+.bg_lightgrey .half_cover .my_btn {
+    background-color: #d9dadc ;  
+    color: #3066e6;
+}
+
+.bg_darkblue .half_cover .my_btn {
+    background-color: white ;  
+    color: #161c3b ;
+}
+
+.bg_white .my_btn{
+    background-color: #2d64e6 ;  
+    color: white;
+}
+
+/* Titles */
+
+.large_title{
+    font-size: 40px; 
+}
+
+.small_title{
+    font-size: 32px; 
+}
+
+.title_block {
+    margin-bottom: 35px;
+}
+
+.title_block .large_title{
+    margin-bottom: 30px;
+}
+
+.title_block .small_title{
+    margin-bottom: 20px;
+}
+
+.title_block .subtitle{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Jumbotron */
 .jumbotron{
@@ -195,18 +252,48 @@ main{
 }
 
 /* New releases */
-.bg_darkgrey{
-    background-color: #1f1f1f;
-    color: white;
+.image_block{
+    border-radius: 15px;
+    overflow: hidden;   
+    margin-bottom: 15px; 
 }
-.text_block {
-    margin-bottom: 35px;
-}
-.text_block h3{
-    font-size: 32px;
+
+@media screen and (min-width:992px) {
+    .image_block{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+} 
+
+
+/* Coupon */
+.coupon .text_block .title{
     margin-bottom: 20px;
 }
 
-/* Coupon */
-.coupon .text_block 
+.coupon .text_block .title{
+    margin-bottom: 20px;
+}
 
+
+
+/* Explore */
+.media_block{
+    margin: 90px 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+/* Backgrounds */
+footer .bg_blue{
+    background-color: #00439c ;
+    color: white;
+}
