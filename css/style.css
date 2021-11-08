@@ -15,6 +15,21 @@ body{
     max-width: 1300px;
 }
 
+@media screen and (min-width:576px){
+    .max_container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }  
+}
+
+@media screen and (min-width:768px){
+    .max_container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }  
+}
+
+
 /* Buttons */
 .my_btn{
     border-radius: 50px;
@@ -78,8 +93,6 @@ main{
 
 .cover_bg{
     width: 100%;
-    padding-left: 45px;
-    padding-bottom: 30px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -110,7 +123,6 @@ main{
     margin: 30px 0;
 }
 
-
 .half_cover .cover_content{
     max-width: 570px;
 } 
@@ -121,7 +133,7 @@ main{
 
 @media screen and (min-width:992px){    
     .full_cover{
-        max-width: 440px;
+        max-width: 420px;
     }
 }
 
@@ -137,7 +149,6 @@ main{
 /* Cover Images */
 .jumbotron{
     background-image: url("../img/jumbo-bg.png");
-
 }
 
 .bg_it_takes_two{
@@ -239,7 +250,7 @@ main{
     padding-bottom: 40px;
 }
 
-.previews .img_block{
+.previews .img_block img{
     border-radius: 20px;
     overflow: hidden;
 }
@@ -283,14 +294,12 @@ main{
 }
 
 @media screen and (min-width:768px){
-
     .new_product .text_block{
         height: 50px;
     }
     .new_product .text_block span {
         display: inline;
     }
-    
 }
 
 /* New releases */
@@ -317,10 +326,17 @@ main{
 } 
 
 /* Coupon */
+
 .coupon {
     padding-top: 70px;
     padding-bottom: 20px;
 }
+
+@media screen and (min-width:768px) {
+    .coupon .img_block{
+        margin-bottom: 0;
+    }
+} 
 
 /* Explore */
 
@@ -333,7 +349,6 @@ main{
     margin-top: 50px;
 }
 
-
 @media screen and (min-width:768px) {
     margin-top: 0;
 }
@@ -345,7 +360,6 @@ main{
     padding-bottom: 20px;
 }
 
-
 .social .wrapper{
     max-width: 600px;
     margin: auto;
@@ -355,15 +369,9 @@ main{
     margin-bottom:15px ;
 }
 
-
-
-
-
 /* FOOTER */
 
-/* Backgrounds */
-
-footer .bg_blue{
+.{
     background-color: #00439c ;
     color: white;
 }
