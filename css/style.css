@@ -13,7 +13,8 @@ body{
 /* Container */
 .max_container{
     max-width: 1300px;
-    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 /* Buttons */
@@ -78,10 +79,12 @@ main{
 /* Covers */
 
 .cover_bg{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
 }
 
 .full_cover{
@@ -133,6 +136,16 @@ main{
     } 
 }
 
+/* Cover Images */
+.jumbotron{
+    background-image: url("../img/jumbo-bg.png");
+    
+}
+
+.bg_it_takes_two{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
 /* Solid color backgrounds */
 
 .bg_lightgrey{
@@ -182,14 +195,24 @@ main{
     color: white;
 }
 
-/* Titles */
+/* Media block */
+
+.media_block{
+    margin: 60px 0;
+}
+
+/* Title block */
 
 .large_title{
-    font-size: 40px; 
+    font-size: 36px; 
 }
 
 .small_title{
     font-size: 32px; 
+}
+
+.subtitle{
+    font-size: 18px;
 }
 
 .title_block {
@@ -197,7 +220,7 @@ main{
 }
 
 .title_block .large_title{
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .title_block .small_title{
@@ -209,29 +232,13 @@ main{
     margin-top: 20px;
 }
 
+/* Previews */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Jumbotron */
-.jumbotron{
-    background-image: url("../img/jumbo-bg.png");
-    
+.previews{
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-/* Previews */
 .releases_title{
     margin: 15px 0 50px;
 }
@@ -246,12 +253,13 @@ main{
     }
 }
 
-/* Cover */
-.bg_it_takes_two{
-    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+/* New releases */
+
+.new_releases{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-/* New releases */
 .image_block{
     border-radius: 15px;
     overflow: hidden;   
@@ -267,23 +275,29 @@ main{
 
 
 /* Coupon */
-.coupon .text_block .title{
-    margin-bottom: 20px;
-}
-
-.coupon .text_block .title{
-    margin-bottom: 20px;
+.coupon {
+    padding-top: 70px;
+    padding-bottom: 20px;
 }
 
 
 
 /* Explore */
-.media_block{
-    margin: 90px 0;
+
+.explore{
+    padding-top: 70px;
+    padding-bottom: 20px;
 }
 
 
+.explore .media_block img{
+    margin-top: 50px;
+}
 
+
+@media screen and (min-width:768px) {
+    margin-top: 0;
+}
 
 
 
