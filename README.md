@@ -4,6 +4,7 @@ Playstation-inspired web page.
 ## Technologies 
 - HTML
 - CSS
+- Bootstrap
 
 ## Live demo
 You can **[check it out here](https://painteyes.github.io/html-css-playstation)** !
