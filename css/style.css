@@ -101,7 +101,6 @@ main{
 .full_cover{
     color: white;
     height: 700px;
-    margin: auto 0; 
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;  
@@ -119,6 +118,10 @@ main{
     margin-top: 0;
 }
 
+.cover_content {
+    margin-bottom: 20px;
+}
+
 .cover_content > *{
     margin: 30px 0;
 }
@@ -132,7 +135,7 @@ main{
 } 
 
 @media screen and (min-width:992px){    
-    .full_cover{
+    .cover_content{
         max-width: 420px;
     }
 }
@@ -393,6 +396,10 @@ footer .text_block{
 
 footer ul{
     list-style-type: none;
+}
+
+footer li {
+    margin-bottom: 10px;
 }
 
 .copyright {
